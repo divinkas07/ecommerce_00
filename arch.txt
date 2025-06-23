@@ -1,0 +1,8 @@
+/backend
+ ├── controllers/
+ ├── models/
+ ├── routes/
+ ├── services/
+ ├── middlewares/
+ ├── config/
+ └── app.js / server.js
