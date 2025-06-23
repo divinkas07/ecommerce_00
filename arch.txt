@@ -1,8 +1,18 @@
 /backend
- ├── controllers/
+ ├── controllers/ 
  ├── models/
  ├── routes/
  ├── services/
  ├── middlewares/
  ├── config/
  └── app.js / server.js
+
+# sub prototyp
+
+mkdir ecommerce-backend && cd ecommerce-backend ok 
+npm init -y ok 
+npm install express dotenv mongoose cors morgan bcryptjs jsonwebtoken ok
+npm install nodemon --save-dev ok
+
+    key : DS7bgD!F9g_u&y.
+    url : postgresql://postgres.xcbczpasgvhyctihclod:[YOUR-PASSWORD]@aws-0-eu-west-3.pooler.supabase.com:5432/postgres
